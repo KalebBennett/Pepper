@@ -1,0 +1,43 @@
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Authentication| Game</title>
+    <!-- load bottstrap 3.0.2-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <!-- load fontawesome 4.0.3-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style media="screen">
+      body { padding-top: 80px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h1><span class="fa fa-sign-in"></span>Login</h1>
+        <% if(message.length>0){%>
+          <div class="alert alert-danger"><%= message %></div>
+        <% } %>
+        <!-- login form -->
+        <form id="signin" name="signin" method="post" action="signin">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input class="text form-control" name="email" type="text" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input name="password" type="password" class="form-control"/>
+          </div>
+          <button type="submit" class="btn btn-warning btn-lg">Login</button>
+        </form>
+
+        <hr>
+
+        <p>Need an account? <a href="/signup">Signup</a></p>
+        <p>Or go <a href="/">Home</a>.</p>
+      </div>
+    </div>
+  </body>
+</html>
