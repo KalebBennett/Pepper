@@ -1,0 +1,358 @@
+body {
+  padding:0;
+  margin:0;
+}
+br {
+}
+a {
+  text-decoration:none;
+}
+#buttonsbox {
+  position:fixed;
+  top:5px;
+  background-color:#54D0BA;
+  margin-top:-22px;
+  height:75px;
+  width:100%;
+  display:inline-block;
+}
+#sitename {
+  display:inline-block;
+  font-style:oblique;
+  font-family: Arial, "Helvetica", sans-serif;
+}
+.sign {
+  background-color:#44a8c5;
+  text-align:center;
+  border-style:none;
+  padding:0;
+  border:0;
+  border-radius:10px;
+  height:45px;
+  width:100px;
+  margin-top:-75px;
+}
+#signin {
+    float: right;
+    margin-right:110px;
+    /* border-width:thin; */
+    border-style:solid;
+    border-color:black;
+}
+#signup {
+    float: right;
+    /* border-width:thin; */
+    border-style:solid;
+    border-color:black;
+}
+/* ------------------------------------------------------------------------------------ */
+#OfferStuff {
+  /* width:100%;
+  background-color:gray;
+  height:50rem; */
+}
+#specialoffers {
+  font-size:40px;
+  font-weight:800;
+  margin-left:20px;
+  font-style:oblique;
+  /* text-decoration:underline; */
+}
+#sofontstuff {
+  font-style:oblique;
+  font-weight:500;
+}
+#sOffers {
+  float:left;
+  background-color:transparent;
+  height:25vh;
+  width:20rem;
+  margin-left:20px;
+  font-style:normal;
+  background-image:url("https://lh5.googleusercontent.com/cAnhBOsy_kyaJgPmNtUOCabNvYQhgDdDk1eVKpw_TtAe1sYGAczkW6rFkqFIPUQJGrHADh28p2BIHdI-arVE5u3y6Bccf8ZXI0ZpIhiGoUyIYRd9AG7z_IsupqBt44aw58wlku6Dbz4");
+  background-color:transparent;
+  background-repeat:no-repeat;
+  background-size:20rem;
+  border-style:solid;
+  border-width:thin;
+  border-color:black;
+}
+#sOfferInfo {
+  height:10rem;
+  width:19.9rem;
+  display:inline-block;
+  background-color:#44a8c5;
+  border-style:solid;
+  border-width:medium;
+  border-color:black;
+  margin-left:-2.5px;
+  position:absolute;
+}
+#dahspecnameinf {
+  margin-left:10px;
+  font-size:25px;
+  font-style:oblique;
+  font-weight:800;
+  color:black;
+}
+#dahspecdescinf {
+  margin-left:5px;
+  font-size:20px;
+  font-style:normal;
+  font-weight:500;
+  color:white;
+}
+/* --------- */
+#bar {
+  height:50px;
+  width:100%;
+  margin-top:21rem;
+  background-color:#105A92;
+  padding-bottom:20px;
+  border-style:groove;
+  border-width:thin;
+  border-color:black;
+}
+#informer {
+  margin-top:-14px;
+  text-align:center;
+  font-weight:200;
+  font-size:25px;
+  color:white;
+}
+#buypepplusbtn {
+  color:white;
+}
+#idk1 {
+  display:inline-block;
+  font-size:30px;
+  font-style:oblique;
+  text-align:center;
+  color:white;
+}
+#presstobuyplusnow {
+  position:fixed;
+  display:inline-block;
+  background-color:transparent;
+  border-style:none;
+  padding:0;
+}
+#sep1 {
+  color:white;
+  font-style:oblique;
+  display:inline-block;
+}
+#sep2 {
+  color:white;
+  font-style:oblique;
+  display:inline-block;
+}
+/* --------- */
+#moreoffers {
+  margin-left:20px;
+  margin-top:2.5rem;
+}
+#mofontstuff {
+  font-size:35px;
+  font-weight:800;
+  font-style:oblique;
+  /* text-decoration:underline; */
+}
+#mOffers {
+  /* background-color:gray; */
+  height:20vh;
+  width:15rem;
+  margin-left:20px;
+  font-style:normal;
+  background-color:transparent;
+  background-image:url("https://lh4.googleusercontent.com/jcULO_hzRPwqrSZEzDAJvumBFccdcPSgQKVA3hseHm_U_MVdgLgw4atWCWOSe2UiqcKGwjP8_0xpjWoIhvO6MCiy_DSuUx6Ba0S5ZImxr_WeTxM5aVn9TaItOm4X-FGR4rO_KtBjDug");
+  background-color:transparent;
+  background-repeat:no-repeat;
+  background-size:15rem;
+}
+#mOfferInfo {
+  height:10rem;
+  width:14.9rem;
+  display:inline-block;
+  background-color:#44a8c5;
+  border-style:solid;
+  border-width:medium;
+  border-color:black;
+  margin-left:-2.5px;
+  position:absolute;
+}
+#dahmorenameinf {
+  margin-left:10px;
+  font-size:25px;
+  font-style:oblique;
+  font-weight:800;
+  color:black;
+}
+#dahmoredescinf {
+  margin-left:5px;
+  font-size:20px;
+  font-style:normal;
+  font-weight:500;
+  color:white;
+}
+/* ------------------------------------------------------------------------------------ */
+#paypalstuff {
+  position:fixed;
+  left:25%;
+  width:50%;
+  margin:auto;
+  margin-top:-30%;
+  border-style:outset;
+  border-width:medium;
+  border-color:black;
+  border-radius:50px;
+  background-color:#105A92;
+  /* display:none; */
+}
+#closepaypal {
+  background-color:transparent;
+  border-radius:2.5px;
+  border-style:none;
+  font-size:25px;
+  float:right;
+  height:35px;
+  width:35px;
+  margin-right:20px;
+  margin-top:15px;
+}
+#paypepplus {
+  color:black;
+  font-size:25px;
+  /* background-color:#105A92; */
+  /* width:50%; */
+  text-align:center;
+  /* margin:auto; */
+  /* margin-top:-30%; */
+  /* height:345px; */
+  /* border-style:outset; */
+  /* border-width:medium; */
+  /* border-color:black; */
+  /* border-radius:50px; */
+  /*display:none;*/ /*-----PepperPlus PayPal Stuff Show and Hide-----*/
+}
+#pepplus {
+  display:inline-block;
+  color:white;
+  font-size:30px;
+  font-style:oblique;
+  text-align:center;
+}
+#pepplus2 {
+  display:inline-block;
+  color:white;
+  font-size:30px;
+  font-style:oblique;
+  text-align:center;
+}
+#payinf {
+  color:white;
+  font-size:30px;
+  font-style:oblique;
+  text-align:center;
+}
+#payinf1 {
+  display:inline-block;
+  color:white;
+  font-size:30px;
+  text-align:center;
+}
+#payinf1-2 {
+  display:inline-block;
+  color:black;
+  font-size:30px;
+  text-align:center;
+}
+#payinf2 {
+  color:white;
+  font-size:30px;
+  text-align:center;
+  margin-top:-25px
+}
+#paypalbtn {
+  height:100px;
+  width:400px;
+  padding:0;
+  border-width:0;
+  background-color:transparent;
+  background-image: url(https://lh4.googleusercontent.com/7cUfEWb9D1R2kTCat9esjnxzFNg-l1l5gHBa7xyODpPxWontT7b8bkn0z04q2u4pQXlJVau2mRhS6CdutZ0J9WR7S7I_4T2y2bxi6CjvqhGPQm0YJJpkDaIR_QVdfBcv3B7G4d1an0I);
+  background-repeat:no-repeat;
+  background-size:400px;
+  background-position:center;
+  margin-top:-10px;
+}
+/* ------------------------------------------------------------------------------------ */
+#loginstuff {
+  position:fixed;
+  right:0;
+  top:462.5px;
+  height:50rem;
+  width:25rem;
+  margin-top:-405px;
+  background-color:#44a8c5;
+  float:right;
+  opacity:.95;
+  border-style:ridge;
+  border-width:medium;
+  border-color:black;
+  display:block;
+}
+#signintext {
+  text-align:center;
+  font-style:oblique;
+  font-weight:100;
+  color:black;
+}
+.userinfo {
+  background-color:white;
+  height:25px;
+  margin-top:10px;
+  margin-left:10px;
+}
+.signinoption {
+  height:50px;
+  width:200px;
+  margin-left:10px;
+  border-style:none;
+  padding:0;
+}
+#facebooksignin {
+  background-color:transparent;
+  background-image:url("https://brentbrookbush.com/wp-content/themes/brent/images/facebook-login.png");
+  /* background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XmhT1nICPjerWbp6hH4_JidDoHcqPmMUzfDWRK6YErqnwyml"); */
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:200px;
+}
+#gmailsignin {
+  background-color:transparent;
+  background-image:url("https://lh5.googleusercontent.com/gRHwSZUjMvN7s57LC4zaIGkPTr2Ap1Q8iU321Tc7KkOynIc_R2-n_XEKyyHSEEgv4tOVBpTVPBPQibDoJb2e2VOM6UhrLXlZUOc-dQVWosVELhzZcEJHuek3Kn-lhXJSRx4xTjpWu7Q");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:200px;
+}
+#twittersignin {
+  background-color:transparent;
+  background-image:url("https://lh5.googleusercontent.com/slrdKlXTOe3Ng2K2OK2CGpCk0x7Eka2Vaho9BnNK1l_gpMe8B0EYF74X35aAFzLrotQbv7hL5WJozmKZNL98KQyVA7x7fzCndh8oFyvDqL8VqOkdhqOEMWzuprJyWxjuQH0O0o5t_Wo");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:200px;
+}
+/* ------------------- */
+#orsignup {
+  margin-top:-15.5rem;
+  margin-left:12.5rem;
+}
+#orsign {
+  color:black;
+  font-size:25px;
+  font-weight:200;
+}
+#orgotosignup {
+  /* text-decoration:none; */
+}
+/* ------------------------------------------------------------------------------------ */
